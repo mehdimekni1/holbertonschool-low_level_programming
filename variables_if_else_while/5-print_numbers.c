@@ -12,12 +12,7 @@ int main(void)
 	while (n < 10)
 	{
 		printf("%d", n);
-		if (n < 9)
-		{
-			printf(", ")
-		}
-		
-	n++;
+	    n++;
 	}
 	
 	return (0);
