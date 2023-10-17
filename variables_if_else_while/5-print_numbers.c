@@ -6,5 +6,13 @@
  */
 int main(void)
 {
- return (0);
-}   
+	int n;
+
+	n = '0';
+	while (n <= '9')
+	{
+		printf("%d\n", n);
+		n++;
+	}
+	return (0);
+}
