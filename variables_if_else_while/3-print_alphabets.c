@@ -7,6 +7,7 @@
 int main(void)
 {
 	char alphabet;
+	char ALPHABET;
 
 	alphabet = 'a';
 	while (alphabet <= 'z')
@@ -14,7 +15,12 @@ int main(void)
 		putchar(alphabet);
 		alphabet++;
 	}
+	ALPHABET = 'A';
+	while (ALPHABET <= 'Z')
+	{
+		putchar(ALPHABET);
+		ALPHABET++;
+	}
 	putchar('\n');
 	return (0);
 }
-
