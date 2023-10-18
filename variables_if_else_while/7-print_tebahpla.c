@@ -8,8 +8,8 @@ int main(void)
 {
 	char alphabet;
 
-	alphabet = 'z';
-	while (alphabet <= 'a')
+	alphabet ='z';
+	while (alphabet >= 'a')
 	{
 		putchar(alphabet);
 		alphabet--;
