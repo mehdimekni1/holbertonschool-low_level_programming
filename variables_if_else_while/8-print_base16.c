@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	 int n;
+	int n;
 
 	n = 48;
 	while (n < 58)
@@ -14,8 +14,8 @@ int main(void)
 		putchar(n);
 		n++;
 	}
-    n = 97;
-    while (n < 103)
+	n = 97;
+	while (n < 103)
 	{
 		putchar(n);
 		n++;
