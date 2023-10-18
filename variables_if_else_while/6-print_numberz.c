@@ -11,9 +11,9 @@ int main(void)
 	n = 48;
 	while (n < 58)
 	{
-		putchar( 0 + n);
+		putchar(n);
 		n++;
 	}
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
