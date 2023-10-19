@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * _islower - a function that checks for lowercase character.
+ * print_sign - a function that prints the sign of a number.
  * @c: check c
  * Return:0
  */
-int _islower(int c)
+int print_sign(int n)
 {
 
 	if (c >= 97 && c <= 122)
