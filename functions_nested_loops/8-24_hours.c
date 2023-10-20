@@ -7,7 +7,8 @@
 void jack_bauer(void)
 {
     int n = 0;
-    while ( n<10 )
+    
+    while (n < 10)
     {
         _putchar(n);
         n++;
