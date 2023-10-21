@@ -17,20 +17,13 @@ void times_table(void)
 		for (x = 0; x < 10; x++)
 		{
 			int y = x * n;
-
-			printf("%d", y);
+			printf("%3d", y);
 			if (x != 9)
 			{
-				if (y < 10)
-				{
-					printf(",  ");
-				}
-				else
-				{
-					printf(", ");
-				}
+				printf(",");
 			}
 		}
 		printf("\n");
 	}
 }
+   0
