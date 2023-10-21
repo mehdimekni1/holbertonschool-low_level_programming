@@ -17,7 +17,7 @@ void times_table(void)
 		for (x = 0; x < 10; x++)
 		{
 			int y = x * n;
-			
+
 			if (x == 0)
 			{
 				printf("%d", y);
