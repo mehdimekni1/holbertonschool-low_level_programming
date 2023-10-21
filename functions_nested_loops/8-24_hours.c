@@ -8,22 +8,20 @@
 
 void jack_bauer(void)
 {
-    int m = 0, h = 0;
-    
-    while (m < 60 && h<24)
-    {
-        printf("%02d",h);
-        printf(":");
-        printf("%02d",m);
-        printf("\n");
-        
-        m=m+1;
-        if (m==60)
-        {
-            m = 0; 
-            h = h + 1;
-        }
-         
-    }
-    
+	int m = 0, h = 0;
+
+	while (m < 60 && h < 24)
+	{
+		printf("%02d", h);
+		printf(":");
+		printf("%02d", m);
+		printf("\n");
+
+		m = m + 1;
+		if (m == 60)
+		{
+			m = 0;
+			h = h + 1;
+		}
+	}
 }
