@@ -12,16 +12,15 @@ void jack_bauer(void)
 
 	while (h < 24)
 	{
+		while (m<60)
+        {
 		printf("%02d", h);
 		printf(":");
-		printf("%02d", m);
+	    printf("%02d", m);
 		printf("\n");
-
 		m++;
-		if (m == 60)
-		{
-			m = 0;
-			h++;
 		}
+	m=0;
+	h++;
 	}
 }
