@@ -2,8 +2,7 @@
 #include "stdio.h"
 /**
  * add- a function that adds two integers and returns the result.
- *@b integer
- *@c 
+ *@b @c integer
  * Return:0
  */
 int add(int b, int c)
