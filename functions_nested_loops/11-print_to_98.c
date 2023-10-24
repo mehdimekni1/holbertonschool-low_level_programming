@@ -8,7 +8,7 @@
  */
 void print_to_98(int n)
 {
-    for (n = 0; n < 99; n++)
+    for (n = n; n < 99; n++)
     {
         printf("%d, ", n);
     }
